@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-image: linear-gradient(to right, black, rgb(4, 139, 208));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+main{
+    background-color: wheat;
+    padding: 30px;
+    border-radius: 20px;
+    text-align: center;
+    max-width: 300px;
+}
+a{
+    background-color: beige;
+    padding: 20px;
+    display: inline-block;
+    margin: 5px;
+    width: 150px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: black;
+}
